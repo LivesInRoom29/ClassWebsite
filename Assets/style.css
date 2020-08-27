@@ -1,3 +1,47 @@
-div.jumbotron {
+/* Google fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
+
+body{
     background-image: url("./img/tree.jpg");
+    /* background-color: rgb(13, 41, 13); */
+}
+
+div.jumbotron {
+    height: 100vh;
+    background-image: url("./img/tree.jpg");
+
+}
+
+h1.display-4 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 7vw;
+    padding: 50px;
+
+}
+
+div.container .row {
+    justify-content: space-around;
+}
+
+div.index {
+    background-color: rgba(240, 255, 249, 0.568);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p.index {
+    background-color: rgba(13, 41, 13, 0.637);
+    color: beige;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 6vw;
+}
+
+div.card {
+    max-width: 300px;
+    margin: 10px;
+}
+/* for button */
+a.entersite:hover {
+    -webkit-animation: shake 1s;
+    animation: shake 1s;
 }
