@@ -138,3 +138,23 @@ a.entersite:hover {
     cursor: pointer;
     border-radius: 50%;
 }
+
+/* Contact links */
+div.contacts-container {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color:  rgb(164, 192, 107);
+}
+
+a.contact-link {
+font-size: 3vw;
+color: rgb(19, 61, 19);
+padding: 5px;
+margin: 10px;
+}
+
+a.middle {
+margin: 5vw;
+}

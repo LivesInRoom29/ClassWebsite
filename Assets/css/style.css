@@ -78,6 +78,14 @@ a.entersite:hover {
     animation: shake 1s;
 }
 
+/* Footer */
+
+footer.page-footer {
+    color: black;
+    background-color: rgba(164, 192, 107, 0.363);
+    padding: 20px;
+}
+
 
 
 
