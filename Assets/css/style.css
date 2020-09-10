@@ -78,7 +78,25 @@ a.entersite:hover {
     animation: shake 1s;
 }
 
+/* Contact links */
+
+a.contact-link {
+font-size: 3vw;
+color: rgb(19, 61, 19);
+padding: 5px;
+margin: 10px;
+}
+
+a.middle {
+margin: 5vw;
+}
+
 /* Footer */
+
+div.container-contact-footer {
+    background-color: white;
+    padding: 0px;
+}
 
 footer.page-footer {
     color: black;

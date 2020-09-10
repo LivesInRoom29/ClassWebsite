@@ -7,10 +7,6 @@ body{
 
 /* for button */
 /* from: https://codepen.io/cheeriottis/pen/inluv */
-/* body
-{
-	padding: 50px;
-} */
 
 a.animate
 {
@@ -49,15 +45,19 @@ div.whobutton {
     background-color: rgba(13, 41, 13, 0.767);
 }
 
-div.jumbotron {
-    height: 100vh;
-    background-image: url("../img/tree.jpg");
+div.jumbotron  {
+    height: 80vh;
+    background-image: url("../img/tree.jpg"); 
+    margin-bottom: 0;
+}
 
+div.jumbotron .jumbo-index {
+    padding-bottom: 1vw;
 }
 
 h1.display-4 {
     font-family: 'Lexend Peta', sans-serif;
-    font-size: 7vw;
+    font-size: 6vw;
     padding: 50px;
 
 }
@@ -76,7 +76,7 @@ p.index {
     background-color: rgba(13, 41, 13, 0.637);
     color: beige;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 
 div.card {

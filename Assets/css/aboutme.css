@@ -148,13 +148,7 @@ div.contacts-container {
     background-color:  rgb(164, 192, 107);
 }
 
-a.contact-link {
-font-size: 3vw;
-color: rgb(19, 61, 19);
-padding: 5px;
-margin: 10px;
-}
-
-a.middle {
-margin: 5vw;
+div.index-contact {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
