@@ -130,3 +130,11 @@ a.entersite:hover {
         max-height: 150px;
     }
 }
+
+/* Carosel indicator - change shape */
+.carousel .carousel-indicators li {
+    width: .625rem;
+    height: .625rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
