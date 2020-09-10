@@ -1,0 +1,132 @@
+/* Google fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
+
+h2 {
+    text-align: end;
+    padding-right: 20px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+p.aboutme, ul.aboutme{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.7vw;
+}
+
+div.jumbotron {
+    background-image: url('../img/wellsBeachNarrow.jpg'); 
+	background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.aboutme {
+    padding: 0;
+}
+
+div.about-section {
+    background-color: rgb(164, 192, 107);
+    padding: 30px 60px;
+}
+
+img#avatar {
+    max-height: 200px;
+}
+
+img#bodhigif {
+    min-height: 5opx;
+}
+
+img#wb {
+    max-height: 300px;
+}
+
+/* for button */
+/* from: https://codepen.io/cheeriottis/pen/inluv */
+/* body
+{
+	padding: 50px;
+} */
+
+a.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+a.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+    margin: 15px 10px 10px 15px;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+a.yellow
+{
+	background-color: rgb(221, 208, 94);
+	border-bottom: 5px solid #D1B358;
+	text-shadow: 0px -2px #D1B358;
+}
+
+a.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+h1.display-4 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 7vw;
+    padding: 50px;
+
+}
+
+div.container .row {
+    justify-content: space-around;
+}
+
+div.index {
+    background-color: rgba(240, 255, 249, 0.568);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p.index {
+    background-color: rgba(13, 41, 13, 0.637);
+    color: beige;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 6vw;
+}
+
+div.card {
+    max-width: 300px;
+    margin: 10px;
+}
+/* for button */
+a.entersite:hover {
+    -webkit-animation: shake 1s;
+    animation: shake 1s;
+}
+
+@media only screen and (max-width: 576px) {
+    p.aboutme {
+        font-size: 3.5vw;
+    }
+
+    img#avatar {
+        max-height: 150px;
+    }
+}
