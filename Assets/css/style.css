@@ -68,10 +68,8 @@ p.index {
     font-size: 6vw;
 }
 
-div.card {
-    max-width: 300px;
-    margin: 10px;
-}
+
+
 /* for button */
 a.entersite:hover {
     -webkit-animation: shake 1s;
