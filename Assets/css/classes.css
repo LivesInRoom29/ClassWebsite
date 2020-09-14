@@ -1,0 +1,8 @@
+body {
+    min-height: 80vh;
+    margin-bottom: 100px;
+}
+
+iframe {
+    min-height: 500px;
+}
