@@ -34,10 +34,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" href="../index.html">YL Bio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="../index.html">APPLIED BIO<span class="sr-only">(current)</span></a>
                     <a class="nav-link active" href="../aboutme.html">About Mrs. Kizer</a>
                     <a class="nav-link disabled" href="./CCPBio.html" tabindex="-1" aria-disabled="true">CCP Bio</a>
-                    <a class="nav-link disabled" href="./AppliedBio.html" tabindex="-1" aria-disabled="true">Applied Bio</a>
+                    <a class="nav-link disabled" href="./YLBio.html" tabindex="-1" aria-disabled="true">YL Bio</a>
                 </div>
             </div>
         </nav>
@@ -58,13 +58,15 @@
                     Calendar
                 </button>
             </p>
-            <div class="collapse" id="syllabus">
-                <div class="card card-body">
-                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQEBH7vqSZpHIi2i1WF3nl3ZyhEtNBV8jN_ND3C7dSx3Pc6e1WxRA2KMLO2sy8Z7noIZEP066CIX9bs/pub?embedded=true"></iframe>                </div>
-            </div>
-            <div class="collapse" id="calendar">
-                <div class="card card-body">
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoR7WWrjmnzIhLOpIM8YnHkvveT5HMp1cbfTrCbn3BvNFbaj8VwwGoigZlbF4bbNbENErr71M6jtO2/embed?start=false&loop=false&delayms=3000"></iframe>                </div>
+            <div id="collapse-container">
+                <div class="collapse" id="syllabus" data-parent="#collapse-container">
+                    <div class="card card-body">
+                        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQEBH7vqSZpHIi2i1WF3nl3ZyhEtNBV8jN_ND3C7dSx3Pc6e1WxRA2KMLO2sy8Z7noIZEP066CIX9bs/pub?embedded=true"></iframe>                </div>
+                </div>
+                <div class="collapse" id="calendar" data-parent="#collapse-container">
+                    <div class="card card-body">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRoR7WWrjmnzIhLOpIM8YnHkvveT5HMp1cbfTrCbn3BvNFbaj8VwwGoigZlbF4bbNbENErr71M6jtO2/embed?start=false&loop=false&delayms=3000"></iframe>                </div>
+                </div>
             </div>
         </div>
     </div>

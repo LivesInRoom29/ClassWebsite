@@ -58,16 +58,19 @@
                     Calendar
                 </button>
             </p>
-            <div class="collapse" id="syllabus">
-                <div class="card card-body">
-                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vR_Uc7Sxsp05sviaHk7X6nXqSSaiZQRdoQmCiR5qagnXlqNxcwQ8296Wxx1ud93zOXP0o3VTgqAY-T8/pub?embedded=true"></iframe>
+            <div id="collapse-container">
+                <div class="collapse" id="syllabus" data-parent="#collapse-container">
+                    <div class="card card-body">
+                        <iframe src="https://docs.google.com/document/d/e/2PACX-1vR_Uc7Sxsp05sviaHk7X6nXqSSaiZQRdoQmCiR5qagnXlqNxcwQ8296Wxx1ud93zOXP0o3VTgqAY-T8/pub?embedded=true"></iframe>
+                    </div>
+                </div>
+                <div class="collapse" id="calendar" data-parent="#collapse-container">
+                    <div class="card card-body">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQFeGFMfyDlNCgzpBGcKtZ26vQ0pDstaPWHiXtXw_6JH8iSlkakA41IUdbyVkgA-veAodb7U25WIBgC/embed?start=false&loop=false&delayms=3000"></iframe>
+                    </div>
                 </div>
             </div>
-            <div class="collapse" id="calendar">
-                <div class="card card-body">
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQFeGFMfyDlNCgzpBGcKtZ26vQ0pDstaPWHiXtXw_6JH8iSlkakA41IUdbyVkgA-veAodb7U25WIBgC/embed?start=false&loop=false&delayms=3000"></iframe>
-                </div>
-            </div>
+            
         </div>
     </div>
     
