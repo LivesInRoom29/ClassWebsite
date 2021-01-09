@@ -1,3 +1,7 @@
 div.form-group {
   margin: 10px;
 }
+
+div.result {
+  margin-left: 0px;
+}
