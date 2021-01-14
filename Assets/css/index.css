@@ -1,9 +1,9 @@
 /* Google fonts: */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
 
-/* body{
-    background-image: url("../img/tree.jpg");
-} */
+body{
+    background-color: #eff0f1;
+}
 
 /* for button */
 /* from: https://codepen.io/cheeriottis/pen/inluv */
@@ -21,17 +21,20 @@ a.action-button
     margin: 15px 10px 10px 15px;
     float: left;
 	border-radius: 10px;
-	font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Roboto', sans-serif;
 	font-size: 25px;
 	color: #FFF;
 	text-decoration: none;	
 }
 
-a.yellow
+a.whobutton
 {
-	background-color: rgb(221, 208, 94);
-	border-bottom: 5px solid #D1B358;
-	text-shadow: 0px -2px #D1B358;
+	background-color: black;
+	border-bottom: 5px solid #485341;
+    text-shadow: 0px -2px #485341;
+    font-size: calc(12px + 0.7vw);
+    padding: 10px 20px;
 }
 
 a.action-button:active
@@ -41,11 +44,24 @@ a.action-button:active
 	border-bottom: 1px solid;
 }
 
+/* arrow */
+/* div.arrow {
+    position: relative;
+    left: 270px;
+    top: -80px;
+} */
+
+img#arrow {
+    height: calc(40px + 2.5vw);
+    transform: rotate(30deg)
+}
+
 /* Jumbotron with Logo image */
 div.jumbotron  {
     height: 80vh;
     background-color: #B1BB8A;
     margin-bottom: 0;
+    padding-top: 20px;
 }
 
 div.jumbotron .jumbo-index {
@@ -58,11 +74,9 @@ img#logo {
     max-height: 50vh;
 }
 
-h1.display-4 {
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 6vw;
-    padding: 50px;
-
+h1.display-5 {
+    font-size: calc(20px + 1.5vw);
+    padding: 10px;
 }
 
 div.container .row {
@@ -92,3 +106,18 @@ a.entersite:hover {
     animation: shake 1s;
 }
 
+/* Media queries */
+@media only screen and (min-width: 768px) {
+    /* for the positioning of the arrow */
+    div.arrow {
+        position: relative;
+        left: 270px;
+        top: -80px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    div.jumbotron {
+        height: 90vh;
+    }
+}
