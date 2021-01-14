@@ -41,10 +41,6 @@ a.action-button:active
 	border-bottom: 1px solid;
 }
 
-div.whobutton {
-    background-color: rgba(13, 41, 13, 0.767);
-}
-
 h1.display-4 {
     font-family: 'Lexend Peta', sans-serif;
     font-size: 7vw;
@@ -53,19 +49,6 @@ h1.display-4 {
 
 div.container .row {
     justify-content: space-around;
-}
-
-div.index {
-    background-color: rgba(240, 255, 249, 0.568);
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-p.index {
-    background-color: rgba(127, 192, 127, 0.637);
-    color: beige;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 6vw;
 }
 
 

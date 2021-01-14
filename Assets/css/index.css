@@ -1,9 +1,9 @@
 /* Google fonts: */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
 
-body{
+/* body{
     background-image: url("../img/tree.jpg");
-}
+} */
 
 /* for button */
 /* from: https://codepen.io/cheeriottis/pen/inluv */
@@ -41,18 +41,21 @@ a.action-button:active
 	border-bottom: 1px solid;
 }
 
-div.whobutton {
-    background-color: rgba(13, 41, 13, 0.767);
-}
-
+/* Jumbotron with Logo image */
 div.jumbotron  {
     height: 80vh;
-    background-image: url("../img/tree.jpg"); 
+    background-color: #B1BB8A;
     margin-bottom: 0;
 }
 
 div.jumbotron .jumbo-index {
     padding-bottom: 1vw;
+}
+
+img#logo {
+    border: 10px solid black;
+    height: 70vw;
+    max-height: 50vh;
 }
 
 h1.display-4 {
@@ -67,7 +70,7 @@ div.container .row {
 }
 
 div.index {
-    background-color: rgba(240, 255, 249, 0.568);
+    /* background-color: rgba(240, 255, 249, 0.568); */
     text-align: center;
     padding-bottom: 20px;
 }
