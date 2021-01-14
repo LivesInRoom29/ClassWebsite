@@ -5,3 +5,11 @@ div.form-group {
 div.result {
   margin-left: 0px;
 }
+
+p.result {
+  font-size: 24px;
+  margin-left: 20px;
+  background-color: rgb(199, 199, 199);
+  padding: 10px;
+  border-radius: 20px;
+}
