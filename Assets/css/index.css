@@ -12,6 +12,18 @@ body{
     background-color: #eff0f1;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
 /* for button */
 /* from: https://codepen.io/cheeriottis/pen/inluv */
 
@@ -47,7 +59,7 @@ a.whobutton
 a.action-button:active
 {
 	transform: translate(0px,5px);
-  -webkit-transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
 	border-bottom: 1px solid;
 }
 
