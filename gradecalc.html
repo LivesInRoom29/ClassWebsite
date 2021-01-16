@@ -55,24 +55,24 @@
         <h2>For Sanford High School</h2>
       </div>
       <!-- Semester Grade Calculator -->
-      <div class="container">
+      <div class="container red-container">
         <h3>Calculate Semester Grade</h3>
         <form class="grade-form">
           <div class="row">
             <div class="form-group">
               <label for="sem1">Semester 1</label>
               <input type="text" class="form-control" id="sem1" aria-describedby="semester1grade" placeholder="Sem1">
-              <small id="sem1" class="form-text text-muted">40% of Semester Grade</small>
+              <small id="sem1" class="form-text">40%</small>
             </div>
             <div class="form-group">
               <label for="sem2">Semester 2</label>
               <input type="text" class="form-control" id="sem2" placeholder="Sem2">
-              <small id="sem2" class="form-text text-muted">40% of Semester Grade</small>
+              <small id="sem2" class="form-text">40%</small>
             </div>
             <div class="form-group">
               <label for="exam">Midterm / Final Exam</label>
               <input type="text" class="form-control" id="exam" placeholder="Exam">
-              <small id="exam" class="form-text text-muted">20% of Semester Grade</small>
+              <small id="exam" class="form-text">20%</small>
             </div>
           </div>
           <div class="form-check">
@@ -83,10 +83,15 @@
           <button type="reset" class="btn btn-warning clear">Clear</button>
         </form>
         <br />
-        <div class="row justify-content-start result">
-          <h5>Your Semester Grade:</h5>
-          <p class="result"></p>
-          <p class="letter-grade"></p>
+        <div class="row justify-content-space-around result">
+          <div class="row">
+            <h5>Your Semester Grade:</h5>
+            <p class="result"></p>
+          </div>
+          <div class="row">
+            <h5>Letter Grade:</h5>
+            <p class="result letter-grade"></p>
+          </div>
         </div>
       </div>
     </div>

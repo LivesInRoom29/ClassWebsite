@@ -1,9 +1,26 @@
+small {
+  color:rgb(231, 231, 231)
+}
+
+input {
+  max-width: 75px;
+}
+
+div.red-container {
+  background-color: rgb(226, 21, 21);
+  color: white;
+  border: 5px solid black;
+  max-width: 600px;
+}
+
 div.form-group {
   margin: 10px;
 }
 
+/* for the last row - semester grade and letter grade */
 div.result {
   margin-left: 0px;
+  align-items: center;
 }
 
 p.result {
@@ -12,4 +29,6 @@ p.result {
   background-color: rgb(199, 199, 199);
   padding: 10px;
   border-radius: 20px;
+  min-width: 50px;
+  min-height: 30px;
 }
