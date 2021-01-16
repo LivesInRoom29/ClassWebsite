@@ -1,9 +1,14 @@
+input {
+  max-width: 75px;
+}
+
+/* the small text under the input fields */
 small {
   color:rgb(231, 231, 231)
 }
 
-input {
-  max-width: 75px;
+button.btn {
+  font-weight: 600;
 }
 
 div.red-container {
@@ -13,6 +18,7 @@ div.red-container {
   max-width: 600px;
 }
 
+/* for the input fields */
 div.form-group {
   margin: 10px;
 }
@@ -20,13 +26,16 @@ div.form-group {
 /* for the last row - semester grade and letter grade */
 div.result {
   margin-left: 0px;
+  margin-right: 0px;
   align-items: center;
 }
 
 p.result {
-  font-size: 24px;
+  font-size: 18px;
   margin-left: 20px;
   background-color: rgb(199, 199, 199);
+  color:rgb(104, 2, 2);
+  font-weight: bold;
   padding: 10px;
   border-radius: 20px;
   min-width: 50px;
