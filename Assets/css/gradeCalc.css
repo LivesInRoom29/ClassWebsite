@@ -7,8 +7,8 @@ small {
   color:rgb(231, 231, 231)
 }
 
-button.btn {
-  font-weight: 600;
+div.shs {
+  text-align: center;
 }
 
 div.red-container {
@@ -21,6 +21,11 @@ div.red-container {
 /* for the input fields */
 div.form-group {
   margin: 10px;
+}
+
+/* for the buttons */
+button.btn {
+  font-weight: 600;
 }
 
 /* for the last row - semester grade and letter grade */
