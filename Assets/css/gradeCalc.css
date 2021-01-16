@@ -2,9 +2,19 @@ input {
   max-width: 75px;
 }
 
+label {
+  font-weight: 500;
+}
+
 /* the small text under the input fields */
 small {
-  color:rgb(231, 231, 231)
+  color:rgb(232, 232, 232);
+  background-color: darkred;
+}
+
+/*  Labels for the results */
+h4 {
+  font-size: 1.25rem;
 }
 
 div.shs {
@@ -21,6 +31,7 @@ div.red-container {
 /* for the input fields */
 div.form-group {
   margin: 10px;
+  text-align: center;
 }
 
 /* for the buttons */
