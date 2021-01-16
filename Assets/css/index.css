@@ -1,6 +1,13 @@
 /* Google fonts: */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
 
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #eff0f1;
 }
@@ -25,7 +32,7 @@ a.action-button
     font-family: 'Roboto', sans-serif;
 	font-size: 25px;
 	color: #FFF;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 a.whobutton
