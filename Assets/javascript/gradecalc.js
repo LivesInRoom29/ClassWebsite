@@ -9,7 +9,9 @@ $(document).ready(function(){
   const letterGradeEl = $('p.letter-grade');
   const noexamCheckEl = $('input#noexam');
 
+  // To turn the percentage grade into a letter grade using the SHS handbook
   function getLetterGrade(percentage) {
+    // round the grade first and compare that grade to values in the switch statement
     const roundedGrade = Math.round(percentage);
     let letterGrade = "";
 
@@ -63,9 +65,13 @@ $(document).ready(function(){
     const sem1Grade = parseFloat(sem1Input.val());
     const sem2Grade = parseFloat(sem2Input.val());
     const examGrade = parseFloat(examInput.val());
+    // no exam will be true if the box is checked, otherwise false
     const noexam = noexamCheckEl.is(":checked");
     let semesterGrade;
 
+    // To calculate the semester grade:
+    // if the box is checked, get the average of the two quarter grades
+    // otherwise combine 40% of each semester grade with 20% of the exam grad
     if (noexam) {
       semesterGrade = ((sem1Grade + sem2Grade) / 2).toFixed(2)
     } else {
@@ -78,11 +84,8 @@ $(document).ready(function(){
     letterGradeEl.html(`${letterGrade}`);
   };
 
-  submitBtn.on("click", function() {
+  submitBtn.on("click", function(event) {
+    event.preventDefault();
     calculateGrade();
   });
-
-  // clearBtn.on("click", function() {
-  //   clearForm();
-  // })
 });
