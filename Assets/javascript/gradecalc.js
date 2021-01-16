@@ -56,8 +56,6 @@ $(document).ready(function(){
       default:
         letterGrade = "default";
     }
-    console.log("rounded grade: ", roundedGrade);
-    console.log("letter grade: ", letterGrade);
     return letterGrade;
   }
 
@@ -77,7 +75,7 @@ $(document).ready(function(){
     const letterGrade = getLetterGrade(semesterGrade)
     // Add the semester grade (% and letter grade) to the DOM
     resultEl.html(`${semesterGrade}%`);
-    letterGradeEl.html(`Letter Grade: ${letterGrade}`);
+    letterGradeEl.html(`${letterGrade}`);
   };
 
   submitBtn.on("click", function() {
