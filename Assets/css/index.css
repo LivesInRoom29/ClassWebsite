@@ -17,8 +17,8 @@ body{
 
 a.animate
 {
-	transition: all 0.1s;
-	-webkit-transition: all 0.1s;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
 }
 
 a.action-button
@@ -119,7 +119,7 @@ a.entersite:hover {
     div.arrow {
         position: relative;
         left: 270px;
-        top: -80px;
+        top: -60px;
     }
 }
 
