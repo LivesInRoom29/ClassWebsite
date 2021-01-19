@@ -110,43 +110,5 @@
     <!-- javascript -->
     <script type="text/javascript" src="Assets/javascript/gradecalc.js"></script>
 
-    <!-- high charts -->
-    <script>
-      let chart;
-
-      document.addEventListener('DOMContentLoaded', function () {
-        chart = Highcharts.chart('graph-container', {
-            chart: {
-                type: 'line'
-            },
-            title: {
-                text: 'Semester Grade'
-            },
-            subtitle: {
-              text: 'Based on Exam Grade (with given quarter grades)'
-            },
-            xAxis: {
-                Title: {
-                  text: 'Exam Grade (midterm / final)'
-                },
-                accessibility: {
-                  rangeDescription: "Range: 0 to 100"
-                }
-            },
-            yAxis: {
-                title: {
-                    text: 'Semester Grade'
-                }
-            },
-            series: [{
-                name: 'Jane',
-                data: [1, 0, 4]
-            }, {
-                name: 'John',
-                data: [5, 7, 3]
-            }]
-        });
-      });
-    </script>
   </body>
 </html>
