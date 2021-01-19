@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
   // variables for DOM elements
-  const sem1Input = $('input#sem1');
-  const sem2Input = $('input#sem2');
+  const quarter1Input = $('input#q1');
+  const quarter2Input = $('input#q2');
   const examInput = $('input#exam');
   const submitBtn = $('button.get-grade');
   const resultEl = $('p.result');
@@ -63,8 +63,8 @@ $(document).ready(function(){
   }
 
   function calculateGrade() {
-    const sem1Grade = parseFloat(sem1Input.val());
-    const sem2Grade = parseFloat(sem2Input.val());
+    const q1Grade = parseFloat(quarter1Input.val());
+    const q2GRade = parseFloat(quarter2Input.val());
     const examGrade = parseFloat(examInput.val());
     // no exam will be true if the box is checked, otherwise false
     const noexam = noexamCheckEl.is(":checked");
@@ -74,9 +74,9 @@ $(document).ready(function(){
     // if the box is checked, get the average of the two quarter grades
     // otherwise combine 40% of each semester grade with 20% of the exam grad
     if (noexam) {
-      semesterGrade = ((sem1Grade + sem2Grade) / 2).toFixed(2)
+      semesterGrade = ((q1Grade + q2GRade) / 2).toFixed(2)
     } else {
-      semesterGrade = ((sem1Grade + sem2Grade) * 0.4 + examGrade * 0.2).toFixed(2)
+      semesterGrade = ((q1Grade + q2GRade) * 0.4 + examGrade * 0.2).toFixed(2)
     }
     // Turn the % grade into a letter grade
     const letterGrade = getLetterGrade(semesterGrade)
