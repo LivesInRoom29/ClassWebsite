@@ -128,7 +128,7 @@ a.entersite:hover {
 /* Media queries */
 
 
-@media only screen and (min-width: 768px) and (max-width: 1100px) {
+@media only screen and (min-width: 768px) {
     /* for the positioning of the arrow */
     div.arrow {
         position: relative;
@@ -143,8 +143,6 @@ a.entersite:hover {
 @media only screen and (min-width: 1100px) {
     /* for the positioning of the arrow */
     div.arrow {
-        position: relative;
-        left: 270px;
         top: -70px;
     }
     img#arrow {
