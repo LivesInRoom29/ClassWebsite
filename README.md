@@ -4,7 +4,9 @@
 ## Description
 This site was created to provide resources for my students and their parents without having to login to Google Classroom. There are some class specific doccuments such as course outlines and weekly plans as well as useful tools such as a grade calculator.
 
-[Link to Deployed Project](https://livesinroom29.github.io/ClassWebsite/)
+[Go to Biology Class Website](https://livesinroom29.github.io/ClassWebsite/)
+
+![Class Website](/Assets/img/BioClass.jpg)
 
 
 ## Table of Contents
