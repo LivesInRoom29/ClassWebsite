@@ -8,7 +8,7 @@ This site was created to provide resources for my students and their parents wit
 
 
 ## Table of Contents
-1. [Tech Used](#tech)
+1. [Tech Used](#tech-used)
 2. [License](#license)
 3. [Contributing](#contributing)
 4. [Questions](#questions)
